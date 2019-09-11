@@ -1,0 +1,65 @@
+/* stying css */
+body{
+    margin: 0;
+    padding: 0;
+}
+body i{
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+/* header section */
+    .search-bar {
+        border-radius: 25px;
+    }
+/* header section */
+/* showcase section */
+.showcase{
+    background-image: url("../img/banner.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.showcase-content{
+    background-color: rgba(0,0,0,.686);
+}
+/* .showcase-text{
+    margin-left: 15%;
+    margin-bottom: 3%;
+} */
+/* showccase section */
+.profile-dp{
+    width: 30px;
+}
+.card{
+    margin-top: 10px;
+}
+.post-body-1,.post-body-2,.post-body-3{
+    height: 170px;
+    background-size:cover;
+    background-repeat: none;
+}
+.post-body-1{
+    background-image: url("../img/post/hills.jpg"); 
+}
+
+.post-body-2{
+    background-image: url("../img/post/tax.jpg"); 
+}
+.post-body-3{
+    background-image: url("../img/post/finance.jpg"); 
+}
+.date-location{
+    font-size: 12px;
+}
+.edit-menu{
+    display: none;
+    right:10px;
+    box-shadow: 4px 4px 10px grey;
+    z-index: 2;
+}
+.social-dropdown{
+    width:130px;right:10px;height: 32px; display:none; box-shadow: 4px 4px 4px grey; top:40px; z-index: 3;
+}
+/*  */
